@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Practica16_ConsultasAnidadas</string>
+    <string name="c_digo_de_producto">Código de producto</string>
+    <string name="nombre_de_producto">Nombre de producto</string>
+    <string name="pvp">PVP</string>
+    <string name="_4">4%</string>
+    <string name="_10">10%</string>
+    <string name="_21">21%</string>
+    <string name="insertar">Insertar</string>
+    <string name="mostrar">Mostrar</string>
+    <string name="articulo">ARTÍCULO</string>
+    <string name="c_digo">Código</string>
+    <string name="nombre">Nombre</string>
+    <string name="iva">IVA</string>
+    <string name="proveedor">PROVEEDOR</string>
+    <string name="tel_fono">Teléfono</string>
+    <string name="provincia">Provincia</string>
+</resources>

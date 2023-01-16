@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Detalles">
+
+    <TextView
+        android:id="@+id/producto_lbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/articulo"
+        android:textStyle="bold"/>
+
+
+    <TextView
+        android:id="@+id/codArt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/producto_lbl"
+        android:layout_marginLeft="200px"/>
+
+    <TextView
+        android:id="@+id/codArtlbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/c_digo"
+        android:layout_below="@id/producto_lbl"/>
+
+    <TextView
+        android:id="@+id/nameArt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/codArt"
+        android:layout_marginLeft="200px"/>
+
+    <TextView
+        android:id="@+id/nameArtlbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nombre"
+        android:layout_below="@id/codArt"/>
+
+    <TextView
+        android:id="@+id/pvpArt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nameArtlbl"
+        android:layout_marginLeft="200px"
+        android:layout_marginTop="0dp" />
+
+    <TextView
+        android:id="@+id/pvpArtlbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pvp"
+        android:layout_below="@id/nameArtlbl"/>
+
+    <TextView
+        android:id="@+id/ivaArt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pvpArtlbl"
+        android:layout_marginLeft="200px"/>
+
+    <TextView
+        android:id="@+id/ivalbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/iva"
+        android:layout_below="@id/pvpArtlbl"/>
+
+
+    <TextView
+        android:id="@+id/Proveedor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/proveedor"
+        android:layout_below="@id/ivalbl"
+        android:textStyle="bold"
+        android:layout_marginTop="40px"/>
+
+    <TextView
+        android:id="@+id/codProv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Proveedor"
+        android:layout_marginLeft="200px"/>
+
+    <TextView
+        android:id="@+id/codProvlbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/c_digo"
+        android:layout_below="@+id/Proveedor"/>
+
+    <TextView
+        android:id="@+id/nameProv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/codProv"
+        android:layout_marginLeft="200px"/>
+
+    <TextView
+        android:id="@+id/nameProvlbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nombre"
+        android:layout_below="@id/codProv"/>
+
+    <TextView
+        android:id="@+id/dir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nameProvlbl"
+        android:layout_marginLeft="200px"/>
+
+    <TextView
+        android:id="@+id/dirlbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dirección"
+        android:layout_below="@id/nameProvlbl"/>
+
+    <TextView
+        android:id="@+id/telefono"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dirlbl"
+        android:layout_marginLeft="200px"/>
+
+    <TextView
+        android:id="@+id/telefonolbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tel_fono"
+        android:layout_below="@id/dirlbl"/>
+
+    <TextView
+        android:id="@+id/nameProvincia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/telefono"
+        android:layout_marginLeft="200px"/>
+
+    <TextView
+        android:id="@+id/provincialbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/provincia"
+        android:layout_below="@id/telefono"/>
+
+</RelativeLayout>
